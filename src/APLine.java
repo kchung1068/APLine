@@ -3,7 +3,7 @@ public class APLine {
 	private int b;
 	private int c;
 
-	private double slope;
+
 
 	public APLine(int a, int b, int c) {
 		this.a = a;
