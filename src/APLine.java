@@ -3,7 +3,7 @@ public class APLine {
 	private int b;
 	private int c;
 
-
+	private double slope;
 
 	public APLine(int a, int b, int c) {
 		this.a = a;
@@ -16,7 +16,7 @@ public class APLine {
 	}
 
 	public boolean isOnLine(int x, int y) {
-		if ((a * x) + (b * y) + (c) == 0) {
+		if ((a * x) + (b * y) + c == 0) {
 			return true;
 		} else {
 			return false;
