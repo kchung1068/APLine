@@ -9,6 +9,7 @@ public class APLine {
 		this.a = a;
 		this.b = b;
 		this.c = c;
+		//
 	}
 
 	public double getSlope() {
